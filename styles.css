@@ -104,3 +104,12 @@ a.twitter-link {
   cursor: pointer;
   padding: 5px;
 }
+
+.hero-section {
+  background-color: pink;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
