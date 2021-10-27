@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: OpenSans, sans-serif;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #1f1f1f;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  margin-top: 20%;
+  background-image: url("https://randomuser.me/api/portraits/men/52.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.menu > ul {
+  color: white;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
+.side-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a.discord-link {
+  display: inline-block;
+  background-color: #8ea1e1;
+  padding: 4px 10px;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+a.twitter-link {
+  display: inline-block;
+  background-color: #1b95e0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social-links {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links > a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #555;
+}
+
+.main-section {
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.top-bar {
+  background-color: #639;
+  display: flex;
+  justify-content: center;
+  border-bottom: 4px solid #491b77;
+}
+
+.book-link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+}
