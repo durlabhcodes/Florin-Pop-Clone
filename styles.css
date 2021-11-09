@@ -4,14 +4,27 @@
 html {
   padding: 0;
   margin: 0;
+  line-height: 1.15;
 }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: OpenSans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 900;
+  font-size: 2em;
+}
+h6 {
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
 .sidebar {
   height: 100vh;
   background-color: #1f1f1f;
@@ -105,11 +118,61 @@ a.twitter-link {
   padding: 5px;
 }
 
-.hero-section {
-  background-color: pink;
-  height: 10rem;
+.hero-section__content {
+  /* background: pink; */
+  background-image: url(https://www.florin-pop.com/static/about-bg-min-34dfd3924efd0f1b27287cc749140d2f.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 80px 0;
+  color: white;
+}
+
+.hero-section__content > h1 {
+  margin: 10px 0;
+}
+
+.hero-section__content-qoute {
+  font-style: italic;
+}
+
+.hero-section__content-qoute-author {
+  font-style: italic;
+}
+
+.data-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin: 4rem auto;
+}
+
+.data-section__data {
+  display: flex;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.data-section__data-details {
+  display: flex;
+  /* background: pink; */
+  padding: 1rem;
+  flex-basis: 75%;
+}
+.data-section__data-label {
+  display: flex;
+  flex-direction: column;
+  /* background: #1b95e0; */
+  justify-content: center;
+  padding: 1rem;
+  flex-basis: 25%;
+}
+.data-section__data-label > h6 {
+  color: #777;
+}
+.data-section__data-label > h2 {
+  margin: 10px 0;
 }
