@@ -11,6 +11,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  background-color: #f6f5f7;
+}
+
+p {
+  line-height: 22px;
 }
 
 h1 {
@@ -116,6 +121,9 @@ a.twitter-link {
   color: #fff;
   cursor: pointer;
   padding: 5px;
+  padding: 15px 20px;
+  font-size: 1.17em;
+  font-weight: bold;
 }
 
 .hero-section__content {
@@ -161,6 +169,7 @@ a.twitter-link {
   /* background: pink; */
   padding: 1rem;
   flex-basis: 75%;
+  color: #333;
 }
 .data-section__data-label {
   display: flex;
