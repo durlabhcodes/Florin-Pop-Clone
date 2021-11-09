@@ -38,6 +38,8 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 
 .profile-pic {
@@ -108,6 +110,7 @@ a.twitter-link {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  margin-left: 16%;
 }
 .top-bar {
   background-color: #639;
