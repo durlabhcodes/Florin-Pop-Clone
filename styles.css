@@ -24,6 +24,11 @@ h1 {
   font-weight: 900;
   font-size: 2em;
 }
+
+h2 {
+  margin: 10px 0;
+}
+
 h6 {
   font-weight: 100;
   letter-spacing: 1px;
@@ -160,11 +165,11 @@ a.twitter-link {
   flex-direction: column;
   padding: 0 20px;
   margin: 4rem auto;
+  max-width: 70rem;
 }
 
 .data-section__data {
   display: flex;
-  max-width: 70rem;
   margin: 0 auto;
 }
 .data-section__data-details {
@@ -185,6 +190,58 @@ a.twitter-link {
 .data-section__data-label > h6 {
   color: #777;
 }
-.data-section__data-label > h2 {
+
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 30px 0;
+}
+
+.skills-section__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.skills-section__item > img {
+  transform: scale(0.7);
+}
+
+.skills-section__item > h4 {
   margin: 10px 0;
+}
+
+.skills-section__item-details {
+  font-size: 80%;
+  color: #555;
+}
+
+.testimonials {
+  display: flex;
+  margin: 30px 0;
+  align-items: center;
+}
+
+.testimonials__label {
+  border-bottom: solid #fb9591;
+  flex-basis: 25%;
+}
+.testimonials__label > h6 {
+  color: #777;
+}
+
+.testimonials__content {
+  color: #333;
+  flex-basis: 75%;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+
+.reviewer {
+  text-align: right;
 }
